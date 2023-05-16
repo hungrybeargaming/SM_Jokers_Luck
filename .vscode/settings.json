@@ -1,0 +1,21 @@
+{
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "prettier.endOfLine": "auto",
+    "prettier.tabWidth": 4,
+    "prettier.quoteProps": "preserve",
+    "prettier.enableDebugLogs": true,
+    "prettier.useTabs": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairsHorizontal": true,
+    "editor.guides.bracketPairs": true
+}

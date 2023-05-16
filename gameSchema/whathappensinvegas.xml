@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameConfig>
+    <SlotDef num_reels="5" view_size="3"
+        num_win_lines="10"
+        delim="|"
+        warchest="10"
+        warchestColumn="2"
+        symbols="Wild|reelSymbolH1|reelSymbolH2|reelSymbolH3|reelSymbolH4|reelSymbolA|reelSymbolK|reelSymbolQ|reelSymbolJ|reelSymbol10|Warchest" wild_cards="Wild" wild_factor="1.00" use_stake_only="N" base_to_total_stake_mult="">
+
+        <SlotWinLine index="0" line="1|1|1|1|1" />
+        <SlotWinLine index="1" line="0|0|0|0|0" />
+        <SlotWinLine index="2" line="2|2|2|2|2" />
+        <SlotWinLine index="3" line="0|1|2|1|0" />
+        <SlotWinLine index="4" line="2|1|0|1|2" />
+        <SlotWinLine index="5" line="0|0|1|2|2" />
+        <SlotWinLine index="6" line="2|2|1|0|0" />
+        <SlotWinLine index="7" line="1|1|0|1|1" />
+        <SlotWinLine index="8" line="1|1|2|1|1" />
+        <SlotWinLine index="9" line="2|0|2|0|2" />
+        <SlotWinLine index="10" line="0|0|1|0|0" />
+        <SlotWinLine index="11" line="0|1|1|1|0" />
+        <SlotWinLine index="12" line="1|0|0|0|1" />
+        <SlotWinLine index="13" line="1|2|2|2|1" />
+        <SlotWinLine index="14" line="1|0|1|0|1" />
+        <SlotWinLine index="15" line="1|2|1|2|1" />
+        <SlotWinLine index="16" line="0|1|0|1|0" />
+        <SlotWinLine index="17" line="2|1|2|1|2" />
+        <SlotWinLine index="18" line="0|1|1|1|2" />
+        <SlotWinLine index="19" line="2|1|1|1|0" />
+
+    
+        <SlotSymbolDef name='wild' symbol_index='0' is_wild='Yes' />
+        <SlotSymbolDef name='reelSymbolH1' symbol_index='1' is_wild='No' />
+        <SlotSymbolDef name='reelSymbolH2' symbol_index='2' is_wild='No' />
+        <SlotSymbolDef name='reelSymbolH3' symbol_index='3' is_wild='No' />
+        <SlotSymbolDef name='reelSymbolH4' symbol_index='4' is_wild='No' />
+        <SlotSymbolDef name='reelSymbolA' symbol_index='5' is_wild='No' />
+        <SlotSymbolDef name='reelSymbolK' symbol_index='6' is_wild='No' />
+        <SlotSymbolDef name='reelSymbolQ' symbol_index='7' is_wild='No' />
+        <SlotSymbolDef name='reelSymbolJ' symbol_index='8' is_wild='No' />
+        <SlotSymbolDef name='reelSymbol10' symbol_index='9' is_wild='No' />
+        <SlotSymbolDef name='Warchest' symbol_index='10' is_wild='No' />
+    </SlotDef>
+    <SlotPayout>
+        <SlotLinePayout symid='1' index='0' payout='2000.00' bitmask_line='3|3|3|3|3'></SlotLinePayout>
+        <SlotLinePayout symid='1' index='1' payout='500.00' bitmask_line='3|3|3|3|32764'></SlotLinePayout>
+        <SlotLinePayout symid='1' index='2' payout='50.00' bitmask_line='3|3|3|32764|32767'></SlotLinePayout>
+        <SlotLinePayout symid='1' index='3' payout='10.00' bitmask_line='3|3|32764|32767|32767'></SlotLinePayout>
+        <SlotLinePayout symid='2' index='4' payout='1000.00' bitmask_line='5|5|5|5|5'></SlotLinePayout>
+        <SlotLinePayout symid='2' index='5' payout='200.00' bitmask_line='5|5|5|5|32762'></SlotLinePayout>
+        <SlotLinePayout symid='2' index='6' payout='40.00' bitmask_line='5|5|5|32762|32767'></SlotLinePayout>
+        <SlotLinePayout symid='2' index='7' payout='5.00' bitmask_line='5|5|32762|32767|32767'></SlotLinePayout>
+        <SlotLinePayout symid='3' index='8' payout='400.00' bitmask_line='9|9|9|9|9'></SlotLinePayout>
+        <SlotLinePayout symid='3' index='9' payout='150.00' bitmask_line='9|9|9|9|32758'></SlotLinePayout>
+        <SlotLinePayout symid='3' index='10' payout='40.00' bitmask_line='9|9|9|32758|32767'></SlotLinePayout>
+        <SlotLinePayout symid='3' index='11' payout='5.00' bitmask_line='9|9|32758|32767|32767'></SlotLinePayout>
+        <SlotLinePayout symid='4' index='12' payout='300.00' bitmask_line='17|17|17|17|17'></SlotLinePayout>
+        <SlotLinePayout symid='4' index='13' payout='100.00' bitmask_line='17|17|17|17|32750'></SlotLinePayout>
+        <SlotLinePayout symid='4' index='14' payout='25.00' bitmask_line='17|17|17|32750|32767'></SlotLinePayout> 
+        <SlotLinePayout symid='5' index='15' payout='300.00' bitmask_line='33|33|33|33|33'></SlotLinePayout>
+        <SlotLinePayout symid='5' index='16' payout='100.00' bitmask_line='33|33|33|33|32734'></SlotLinePayout>
+        <SlotLinePayout symid='5' index='17' payout='25.00' bitmask_line='33|33|33|32734|32767'></SlotLinePayout>
+        <SlotLinePayout symid='6' index='18' payout='250.00' bitmask_line='65|65|65|65|65'></SlotLinePayout>
+        <SlotLinePayout symid='6' index='19' payout='50.00' bitmask_line='65|65|65|65|32702'></SlotLinePayout>
+        <SlotLinePayout symid='6' index='20' payout='20.00' bitmask_line='65|65|65|32702|32767'></SlotLinePayout>  
+        <SlotLinePayout symid='7' index='21' payout='250.00' bitmask_line='129|129|129|129|129'></SlotLinePayout>
+        <SlotLinePayout symid='7' index='22' payout='50.00' bitmask_line='129|129|129|129|32638'></SlotLinePayout>
+        <SlotLinePayout symid='7' index='23' payout='20.00' bitmask_line='129|129|129|32638|32767'></SlotLinePayout>
+        <SlotLinePayout symid='8' index='24' payout='200.00' bitmask_line='257|257|257|257|257'></SlotLinePayout>
+        <SlotLinePayout symid='8' index='25' payout='40.00' bitmask_line='257|257|257|257|32510'></SlotLinePayout>
+        <SlotLinePayout symid='8' index='26' payout='10.00' bitmask_line='257|257|257|32510|32767'></SlotLinePayout>
+        <SlotLinePayout symid='9' index='27' payout='200.00' bitmask_line='513|513|513|513|513'></SlotLinePayout>
+        <SlotLinePayout symid='9' index='28' payout='40.00' bitmask_line='513|513|513|513|32254'></SlotLinePayout>
+        <SlotLinePayout symid='9' index='29' payout='10.00' bitmask_line='513|513|513|32254|32767'></SlotLinePayout>
+        <SlotLinePayout symid='10' index='30' payout='100.00' bitmask_line='1025|1025|1025|1025|1025'></SlotLinePayout>
+        <SlotLinePayout symid='10' index='31' payout='30.00' bitmask_line='1025|1025|1025|1025|31742'></SlotLinePayout>
+        <SlotLinePayout symid='10' index='32' payout='10.00' bitmask_line='1025|1025|1025|31742|32767'></SlotLinePayout>
+    </SlotPayout>
+
+    <SlotReelSet>
+        <SlotReel index="0" reel_def="8|4|5|6|1|1|1|1|1|2|9|4|1|1|3|6|5|6|2|9|3|8|4|7|3|2|7|0|0|0|0|4|2|8|5|1|1|3|8|2|6|4|4|9|3|6|9" />
+        <SlotReel index="1" reel_def="8|5|1|1|4|6|1|1|1|1|1|2|9|4|6|3|1|1|0|0|0|0|4|7|2|3|7|4|6|3|9|5|7|4|1|1|2|8|5|1|1|3|7|5|1|1|2|0|0|0|0|7|4|9|0|9|8" />
+        <SlotReel index="2" reel_def="9|5|8|2|1|1|1|1|1|1|1|4|6|2|8|5|7|3|6|5|6|2|7|0|0|0|0|3|8|4|6|3|2|7|4|2|8|5|6|3|8|5|6|4|4|7|4|8|7|4|7|0|9|1|1|9" />
+        <SlotReel index="3" reel_def="1|1|1|1|1|6|2|1|1|5|3|9|4|2|3|6|2|0|0|0|0|3|7|5|1|1|2|3|8|2|9|3|8|4|1|1|4|1|1|0|7|9" />
+        <SlotReel index="4" reel_def="1|1|1|1|1|8|4|1|1|5|6|8|3|4|8|6|3|5|7|2|1|1|8|3|9|2|8|7|9|2" />
+    </SlotReelSet>
+
+</GameConfig>
+

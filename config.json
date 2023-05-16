@@ -1,0 +1,414 @@
+{
+    "assets": {
+        "images": {
+            "game": {
+                "common": {
+                    "baseUrl": "assets/temp_images/common/",
+                    "comment": "anything with an SM_ is what the framework is expecting",
+                    "files": {
+                        "SM_W1": { "url": "symbols/symbols/W1.png" },
+                        "SM_smaller_W1": { "url": "symbols/symbolsOpponent/W1.png" },
+                        "SM_H1": { "url": "symbols/symbols/H1.png" },
+                        "SM_H2": { "url": "symbols/symbols/H2.png" },
+                        "SM_H3": { "url": "symbols/symbols/H3.png" },
+                        "SM_H4": { "url": "symbols/symbols/H4.png" },
+                        "SM_L1": { "url": "symbols/symbols/L1.png" },
+                        "SM_L2": { "url": "symbols/symbols/L2.png" },
+                        "SM_L3": { "url": "symbols/symbols/L3.png" },
+                        "SM_L4": { "url": "symbols/symbols/L4.png" },
+                        "SM_L5": { "url": "symbols/symbols/L5.png" },
+                        "SM_warchest": { "url": "symbols/symbols/warchest.png" },
+
+                        "SM_smaller_H1": { "url": "symbols/symbolsOpponent/H1.png" },
+                        "SM_smaller_H2": { "url": "symbols/symbolsOpponent/H2.png" },
+                        "SM_smaller_H3": { "url": "symbols/symbolsOpponent/H3.png" },
+                        "SM_smaller_H4": { "url": "symbols/symbolsOpponent/H4.png" },
+                        "SM_smaller_L1": { "url": "symbols/symbolsOpponent/L1.png" },
+                        "SM_smaller_L2": { "url": "symbols/symbolsOpponent/L2.png" },
+                        "SM_smaller_L3": { "url": "symbols/symbolsOpponent/L3.png" },
+                        "SM_smaller_L4": { "url": "symbols/symbolsOpponent/L4.png" },
+                        "SM_smaller_L5": { "url": "symbols/symbolsOpponent/L5.png" },
+                        "SM_smaller_warchest": { "url": "symbols/symbolsOpponent/warchest.png" },
+
+                        "SM_reelFrameLeft": { "url": "frame/leftFrame.png" },
+                        "SM_reelFrameRight": { "url": "frame/rightFrame.png" },
+                        "SM_reelFrameTop": { "url": "frame/topFrame.png" },
+                        "SM_reelFrameBottom": { "url": "frame/bottomFrame.png" },
+                        "SM_reelFrameScorePanel": { "url": "frame/scorePanelFrame.png" },
+
+                        "SM_opp_reelFrameLeft": { "url": "frame/opp_leftFrame.png" },
+                        "SM_opp_reelFrameRight": { "url": "frame/opp_rightFrame.png" },
+                        "SM_opp_reelFrameTop": { "url": "frame/opp_topFrame.png" },
+                        "SM_opp_reelFrameBottom": { "url": "frame/opp_bottomFrame.png" },
+
+                        "SM_colouredScorePanels": { "url": "frame/scorePanels.png" },
+                        "SM_reelCover": { "url": "frame/reelCover.png" },
+                        "SM_reelCoverOpponent": { "url": "frame/reelCover_Opponent.png" },
+
+                        "SM_weaponTimerBarFrame": { "url": "frame/weaponTimerFrame.png" },
+                        "SM_weaponTimerBar": { "url": "frame/weaponTimer.png" },
+                        "SM_weaponTimerBarCounter": { "url": "frame/blueCounter.png" }
+                    }
+                },
+                "locale": {
+                    "baseUrl": "assets/temp_images/en-gb/",
+                    "files": {}
+                }
+            }
+        },
+        "fonts": {
+            "game": {
+                "common": {
+                    "baseUrl": "assets/fonts/",
+                    "files": {}
+                },
+                "locale": {
+                    "baseUrl": "assets/fonts/en-gb/",
+                    "files": {}
+                }
+            }
+        },
+        "sounds": {
+            "game": {
+                "common": {
+                    "baseUrl": "assets/sounds/common/",
+                    "files": {}
+                }
+            }
+        },
+        "textureMaps": {
+            "colouredScorePanels": {
+                "imageName": "SM_colouredScorePanels",
+                "imagePositions": {
+                    "SM_scorePanelBlue": {
+                        "id": "SM_scorePanelBlue",
+                        "x": 0,
+                        "y": 0,
+                        "width": 250,
+                        "height": 89
+                    },
+                    "SM_scorePanelDarkBlue": {
+                        "id": "SM_scorePanelDarkBlue",
+                        "x": 250,
+                        "y": 0,
+                        "width": 250,
+                        "height": 89
+                    },
+                    "SM_scorePanelGreen": {
+                        "id": "SM_scorePanelGreen",
+                        "x": 500,
+                        "y": 0,
+                        "width": 250,
+                        "height": 89
+                    },
+                    "SM_scorePanelDarkGreen": {
+                        "id": "SM_scorePanelDarkGreen",
+                        "x": 750,
+                        "y": 0,
+                        "width": 250,
+                        "height": 89
+                    },
+                    "SM_scorePanelRed": {
+                        "id": "SM_scorePanelRed",
+                        "x": 0,
+                        "y": 89,
+                        "width": 250,
+                        "height": 89
+                    },
+                    "SM_scorePanelDarkRed": {
+                        "id": "SM_scorePanelDarkRed",
+                        "x": 250,
+                        "y": 89,
+                        "width": 250,
+                        "height": 89
+                    },
+                    "SM_scorePanelYellow": {
+                        "id": "SM_scorePanelYellow",
+                        "x": 500,
+                        "y": 89,
+                        "width": 250,
+                        "height": 89
+                    },
+                    "SM_scorePanelBeige": {
+                        "id": "SM_scorePanelBeige",
+                        "x": 750,
+                        "y": 89,
+                        "width": 250,
+                        "height": 89
+                    }
+                }
+            }
+        }
+    },
+    "backgrounds": {
+        "mainScreenBrowserBackground": {
+            "ignore": true
+        }
+    },
+    "debug": {
+        "enableDebugOutput": true,
+        "createOnDeviceDisplay": false
+    },
+    "gridOverlay": {
+        "enabled": false
+    },
+    "localeSupported": {},
+    "phrases": {},
+    "preLoadBackgrounds": {
+        "loadingScreenBrowserBackground": {
+            "tl": {
+                "imageName": "SM_loadingScreenBackgroundTL",
+                "orientationData": {
+                    "landscape": {
+                        "setScale": { "x": 1, "y": 1 },
+                        "setTextureFromID": "SM_loadingScreenBackgroundTL"
+                    },
+                    "portrait": {
+                        "setScale": { "x": 1, "y": 1 },
+                        "setTextureFromID": "SM_loadingScreenBackgroundTL_P"
+                    }
+                }
+            },
+            "tr": {
+                "imageName": "SM_loadingScreenBackgroundTR",
+                "orientationData": {
+                    "landscape": {
+                        "setScale": { "x": 1, "y": 1 },
+                        "setTextureFromID": "SM_loadingScreenBackgroundTR"
+                    },
+                    "portrait": {
+                        "setScale": { "x": 1, "y": 1 },
+                        "setTextureFromID": "SM_loadingScreenBackgroundTR_P"
+                    }
+                }
+            },
+            "bl": {
+                "imageName": "SM_loadingScreenBackgroundBL",
+                "orientationData": {
+                    "landscape": {
+                        "setScale": { "x": 1, "y": 1 },
+                        "setTextureFromID": "SM_loadingScreenBackgroundBL"
+                    },
+                    "portrait": {
+                        "setScale": { "x": 1, "y": 1 },
+                        "setTextureFromID": "SM_loadingScreenBackgroundBL_P"
+                    }
+                }
+            },
+            "br": {
+                "imageName": "SM_loadingScreenBackgroundBR",
+                "orientationData": {
+                    "landscape": {
+                        "setScale": { "x": 1, "y": 1 },
+                        "setTextureFromID": "SM_loadingScreenBackgroundBR"
+                    },
+                    "portrait": {
+                        "setScale": { "x": 1, "y": 1 },
+                        "setTextureFromID": "SM_loadingScreenBackgroundBR_P"
+                    }
+                }
+            }
+        }
+    },
+    "renderer": {
+        "gameWidth": 1024,
+        "gameHeight": 576,
+        "landscapeAllowed": true,
+        "portraitAllowed": true,
+        "antialias": false,
+        "transparent": false,
+        "resolution": 0,
+        "fpsMeterEnabled": false
+    },
+    "screens": {
+        "list": {
+            "welcomeScreen": {
+                "browserBackgroundID": "none",
+                "browserBackgroundFadeOutDuration": 0
+            },
+            "gameScreen": {
+                "browserBackgroundID": "none",
+                "browserBackgroundFadeInDuration": 1,
+                "layout": {
+                    "reelContainersContainer": {
+                        "children": {
+                            "reelContainer": {
+                                "reels": {
+                                    "y": 38,
+                                    "symbolsInView": 3,
+                                    "symbolWidth": 100,
+                                    "symbolHeight": 100,
+                                    "symbolYSpacer": 0,
+                                    "_slotTextures": ["SM_H1", "SM_H1", "SM_H1", "SM_H1", "SM_H1", "SM_H1", "SM_H1", "SM_H1", "SM_H1", "SM_H1", "SM_H1", "SM_warchest"],
+                                    "slotTextures": ["SM_W1", "SM_H1", "SM_H2", "SM_H3", "SM_H4", "SM_L1", "SM_L2", "SM_L3", "SM_L4", "SM_L5", "SM_warchest"],
+                                    "symbolsNotToMaskWhenSpinStopped": {
+                                        "0": false,
+                                        "1": false
+                                    },
+                                    "reelMask": {
+                                        "y": -2,
+                                        "debug": false,
+                                        "type": "Graphic",
+                                        "colour": "0xFF0000",
+                                        "rect": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "width": 100,
+                                            "height": 305
+                                        }
+                                    }
+                                },
+                                "children": {
+                                    "reelBacking": {
+                                        "children": {
+                                            "topReelCover": {
+                                                "dontStore": true,
+                                                "type": "Sprite",
+                                                "imageName": "SM_reelCover",
+                                                "x": -15,
+                                                "y": -5
+                                            },
+                                            "botReelCover": {
+                                                "dontStore": true,
+                                                "type": "Sprite",
+                                                "imageName": "SM_reelCover",
+                                                "x": -15,
+                                                "y": 407,
+                                                "scale": {
+                                                    "x": 1,
+                                                    "y": -1
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "winlineContainer": {
+                                        "y": 35,
+                                        "debug": false,
+                                        "symbolHeight": 100
+                                    }
+                                }
+                            },
+                            "reelContainerPlayer2": {
+                                "reels": {
+                                    "y": 20,
+                                    "symbolsInView": 3,
+                                    "symbolHeight": 50,
+                                    "symbolYSpacer": 0,
+                                    "slotTextures": ["SM_smaller_W1", "SM_smaller_H1", "SM_smaller_H2", "SM_smaller_H3", "SM_smaller_H4", "SM_smaller_L1", "SM_smaller_L2", "SM_smaller_L3", "SM_smaller_L4", "SM_smaller_L5", "SM_smaller_warchest"],
+                                    "symbolsNotToMaskWhenSpinStopped": {
+                                        "0": false,
+                                        "1": false
+                                    },
+                                    "reelMask": {
+                                        "y": -2,
+                                        "debug": false,
+                                        "type": "Graphic",
+                                        "colour": "0xFF0000",
+                                        "rect": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "width": 50,
+                                            "height": 152.5
+                                        }
+                                    }
+                                },
+                                "children": {
+                                    "reelBacking": {
+                                        "children": {
+                                            "topReelCover": {
+                                                "dontStore": true,
+                                                "type": "Sprite",
+                                                "imageName": "SM_reelCoverOpponent",
+                                                "x": -8,
+                                                "y": 1,
+                                                "scale": {
+                                                    "x": 1,
+                                                    "y": 1.1
+                                                }
+                                            },
+                                            "botReelCover": {
+                                                "dontStore": true,
+                                                "type": "Sprite",
+                                                "imageName": "SM_reelCoverOpponent",
+                                                "x": -8,
+                                                "y": 210,
+                                                "scale": {
+                                                    "x": 1,
+                                                    "y": -1
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "reelContainerPlayer3": {
+                                "reels": {
+                                    "y": 20,
+                                    "symbolsInView": 3,
+                                    "symbolHeight": 50,
+                                    "symbolYSpacer": 0,
+                                    "slotTextures": ["SM_smaller_W1", "SM_smaller_H1", "SM_smaller_H2", "SM_smaller_H3", "SM_smaller_H4", "SM_smaller_L1", "SM_smaller_L2", "SM_smaller_L3", "SM_smaller_L4", "SM_smaller_L5", "SM_smaller_warchest"],
+                                    "symbolsNotToMaskWhenSpinStopped": {
+                                        "0": false,
+                                        "1": false
+                                    },
+                                    "reelMask": {
+                                        "y": -2,
+                                        "debug": false,
+                                        "type": "Graphic",
+                                        "colour": "0xFF0000",
+                                        "rect": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "width": 50,
+                                            "height": 152.5
+                                        }
+                                    }
+                                },
+                                "children": {
+                                    "reelBacking": {
+                                        "children": {
+                                            "topReelCover": {
+                                                "dontStore": true,
+                                                "type": "Sprite",
+                                                "imageName": "SM_reelCoverOpponent",
+                                                "x": -8,
+                                                "y": 1,
+                                                "scale": {
+                                                    "x": 1,
+                                                    "y": 1.1
+                                                }
+                                            },
+                                            "botReelCover": {
+                                                "dontStore": true,
+                                                "type": "Sprite",
+                                                "imageName": "SM_reelCoverOpponent",
+                                                "x": -8,
+                                                "y": 210,
+                                                "scale": {
+                                                    "x": 1,
+                                                    "y": -1
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "ui": {
+        "uiType": "slotmasters",
+        "tutorialVideo": {
+            "enabled": true
+        },
+        "layout": {
+            "muteButton": {
+                "visible": true
+            }
+        }
+    }
+}

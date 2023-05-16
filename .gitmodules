@@ -1,0 +1,10 @@
+[submodule "honeypot"]
+	path = honeypot
+	url = ../honeypotv3release
+	branch = dev
+[submodule "assets/temp_images"]
+	path = assets/temp_images
+	url = ../SM_WhatHappensInVegas_images
+[submodule "buildCfg"]
+	path = buildCfg
+	url = ../buildCfgForSlotMasterClients
