@@ -8,3 +8,6 @@
 [submodule "buildCfg"]
 	path = buildCfg
 	url = ../buildCfgForSlotMasterClients
+[submodule "assets/images"]
+	path = assets/images
+	url = ../SM_JokersLuck_images.git
