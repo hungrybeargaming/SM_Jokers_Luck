@@ -12,22 +12,12 @@
                         "SM_H2": { "url": "symbols/symbols/H2.png" },
                         "SM_H3": { "url": "symbols/symbols/H3.png" },
                         "SM_H4": { "url": "symbols/symbols/H4.png" },
-                        "SM_L1": { "url": "symbols/symbols/L1.png" },
-                        "SM_L2": { "url": "symbols/symbols/L2.png" },
-                        "SM_L3": { "url": "symbols/symbols/L3.png" },
-                        "SM_L4": { "url": "symbols/symbols/L4.png" },
-                        "SM_L5": { "url": "symbols/symbols/L5.png" },
                         "SM_warchest": { "url": "symbols/symbols/warchest.png" },
 
                         "SM_smaller_H1": { "url": "symbols/symbolsOpponent/H1.png" },
                         "SM_smaller_H2": { "url": "symbols/symbolsOpponent/H2.png" },
                         "SM_smaller_H3": { "url": "symbols/symbolsOpponent/H3.png" },
                         "SM_smaller_H4": { "url": "symbols/symbolsOpponent/H4.png" },
-                        "SM_smaller_L1": { "url": "symbols/symbolsOpponent/L1.png" },
-                        "SM_smaller_L2": { "url": "symbols/symbolsOpponent/L2.png" },
-                        "SM_smaller_L3": { "url": "symbols/symbolsOpponent/L3.png" },
-                        "SM_smaller_L4": { "url": "symbols/symbolsOpponent/L4.png" },
-                        "SM_smaller_L5": { "url": "symbols/symbolsOpponent/L5.png" },
                         "SM_smaller_warchest": { "url": "symbols/symbolsOpponent/warchest.png" },
 
                         "SM_reelFrameLeft": { "url": "frame/leftFrame.png" },
@@ -240,7 +230,7 @@
                                     "symbolHeight": 100,
                                     "symbolYSpacer": 0,
                                     "_slotTextures": ["SM_H1", "SM_H1", "SM_H1", "SM_H1", "SM_H1", "SM_H1", "SM_H1", "SM_H1", "SM_H1", "SM_H1", "SM_H1", "SM_warchest"],
-                                    "slotTextures": ["SM_W1", "SM_H1", "SM_H2", "SM_H3", "SM_H4", "SM_L1", "SM_L2", "SM_L3", "SM_L4", "SM_L5", "SM_warchest"],
+                                    "slotTextures": ["SM_H1", "SM_H2", "SM_H3", "SM_H4",  "SM_warchest"],
                                     "symbolsNotToMaskWhenSpinStopped": {
                                         "0": false,
                                         "1": false
@@ -294,7 +284,7 @@
                                     "symbolsInView": 3,
                                     "symbolHeight": 50,
                                     "symbolYSpacer": 0,
-                                    "slotTextures": ["SM_smaller_W1", "SM_smaller_H1", "SM_smaller_H2", "SM_smaller_H3", "SM_smaller_H4", "SM_smaller_L1", "SM_smaller_L2", "SM_smaller_L3", "SM_smaller_L4", "SM_smaller_L5", "SM_smaller_warchest"],
+                                    "slotTextures": ["SM_smaller_H1", "SM_smaller_H2", "SM_smaller_H3", "SM_smaller_H4",  "SM_smaller_warchest"],
                                     "symbolsNotToMaskWhenSpinStopped": {
                                         "0": false,
                                         "1": false
@@ -347,7 +337,7 @@
                                     "symbolsInView": 3,
                                     "symbolHeight": 50,
                                     "symbolYSpacer": 0,
-                                    "slotTextures": ["SM_smaller_W1", "SM_smaller_H1", "SM_smaller_H2", "SM_smaller_H3", "SM_smaller_H4", "SM_smaller_L1", "SM_smaller_L2", "SM_smaller_L3", "SM_smaller_L4", "SM_smaller_L5", "SM_smaller_warchest"],
+                                    "slotTextures": [ "SM_smaller_H1", "SM_smaller_H2", "SM_smaller_H3", "SM_smaller_H4",  "SM_smaller_warchest"],
                                     "symbolsNotToMaskWhenSpinStopped": {
                                         "0": false,
                                         "1": false
